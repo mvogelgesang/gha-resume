@@ -1,0 +1,13 @@
+{
+  "name": "gha-resume",
+  "version": "1.0.0",
+  "description": "A prototype to start, stop, and resume github actions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
