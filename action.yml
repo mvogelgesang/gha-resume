@@ -1,0 +1,13 @@
+name: "my workflow"
+description: "output an object"
+inputs:
+  who-to-greet: # id of input
+    description: "Who to greet"
+    required: true
+    default: "World"
+outputs:
+  outputObj: # id of output
+    description: "the key value pairs"
+runs:
+  using: "node20"
+  main: "src/index.js"
